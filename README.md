@@ -8,6 +8,8 @@ This utility can also be used on any machine that has a web browser, e.g. your l
 
 ## How to use this utility
 
+* Download iphone-prompter (see downloads button above) and unzip the downloaded file. 
+
 * Open a simple text editor (download a free one if needed, e.g. "TextWrangler" for Mac, or "Notepad++" for Windows).
 
 * In your simple text editor, prepare one or more text files, with every item you want to present in its own line. Put the text file(s) in the iphone-prompter folder.
