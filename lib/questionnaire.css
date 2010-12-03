@@ -1,0 +1,92 @@
+BODY {
+	background-color: #444;
+	padding-top: 0pt;
+	
+}
+
+#main {
+	width: 880px;
+	height: 430px;
+	margin: 20px 20px 0px 20px;	
+	border: solid black 1px;
+	padding: 20px 20px 20px 20px;
+
+	background-color: #EEE;
+	color: #000;
+	
+	text-align: center;
+	position: relative;
+
+}
+
+#item {
+	font-size: 120pt;
+	margin: 20px 20px 40px 20px;
+}
+
+#buttonleft {
+	font-size: 50pt;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	position: absolute;
+	bottom: 40px;
+	left: 40px
+}
+
+#buttonright {
+	font-size: 50pt;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	position: absolute;
+	bottom: 40px;
+	right: 40px;
+}
+
+#header {
+	width: 920;
+	margin: auto;
+	padding: 20px 0px 20px 0px;
+	color: #aaa;	
+	font-size: 10pt;
+	text-align: right;
+}
+#loadfilebutton {
+	font-size:14pt;
+}
+
+#footer {
+	width: 920px;
+	margin: auto;	
+	padding: 0px 0px 0px 0px;
+	color: #aaa;	
+	font-size: 10pt;
+}
+#progressbar {
+	float: left;
+	padding: 10px 0px 10px 0px;
+}
+#progress_text {
+	float: left;
+	font-size: 20px;
+	color: #aaa;
+	padding-right: 10px;
+}
+#progress_bar_full {
+	float: right;
+	height: 6px;
+	margin: 6px 0px 8px 0px;
+	background-color: #aaa;
+	border-left: solid 1px #aaa;
+	border-top: solid 1px #aaa;
+	border-bottom: solid 1px #aaa;
+}
+#progress_bar_empty {
+	float: right;
+	height: 6px;
+	margin: 6px 0px 8px 0px;
+	border-right: solid 1px #aaa;
+	border-top: solid 1px #aaa;
+	border-bottom: solid 1px #aaa;
+}
+
+
