@@ -1,22 +1,24 @@
 # iphone-prompter
 
-This utility helps linguists present a list of word to a language consultant, presumably to be recorded.
+This utility helps linguists present a list of words to a language consultant, presumably to be recorded.
 
-The iPhone/iPad are ideal for the sound booth environment as they are completely silent. The have no fan, no clicking elements, or anything else that can make noise.
+The iPhone or iPad are ideal for the sound booth environment, as they are completely silent. The have no fan, no clicking mouse or noisy keyboard, or anything else that can make noise.
 
 ## How to use this utility
 
-* Prepare one or more text files, with every item presented to the consultant in its own line. Put them in the same folder with "index.html".
+* Open a simple text editor (download a free one if needed, e.g. "TextWrangler" for Mac, or "Notepad++" for Windows).
 
-* Open the "index.html" file with a simple text editor (download a free one if needed, e.g. "TextWrangler" for Mac, or "Notepad++" for Windows).
+* In your simple text editor, prepare one or more text files, with every item you want to present in its own line. Put the text file(s) in the iphone-prompter folder.
 
-* In "index.html", find where it says "var files". You will see three files listed there. Specify your file(s) there.
+* In your simple text editor, open the "index.html" file.
 
-* If you want to, adjust the width and visibility of the progress bar.
+* In "index.html", go to line 23, where it says "var files". You will see three smaple files listed there. Specify your own file(s).
+
+* If you want to, adjust the width and visibility of the progress bar on line 30.
 
 * Save and close "index.html".
 
-* Upload the iphone-prompter folder to a webserver (your personal website will come in handy).
+* Upload the iphone-prompter folder to a web server (your personal website will come in handy).
 
 * Open Safari on your iphone/ipad, and navigate to wherever you put iphone-prompter.
 
