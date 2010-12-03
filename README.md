@@ -2,7 +2,9 @@
 
 This utility helps linguists present a list of words to a language consultant, presumably to be recorded.
 
-The iPhone or iPad are ideal for the sound booth environment, as they are completely silent. The have no fan, no clicking mouse or noisy keyboard, or anything else that can make noise.
+The iPhone or iPad are ideal for using in the sound booth, as they are completely silent. They have no fan, no clicking mouse or noisy keyboard, or anything else that can make noise.
+
+This utility can also be used on any machine that has a web browser, e.g. your laptop or desktop computer.
 
 ## How to use this utility
 
@@ -12,7 +14,7 @@ The iPhone or iPad are ideal for the sound booth environment, as they are comple
 
 * In your simple text editor, open the "index.html" file.
 
-* In "index.html", go to line 23, where it says "var files". You will see three smaple files listed there. Specify your own file(s).
+* In "index.html", go to line 23, where it says "var files". You will see three sample files listed there. Specify your own file(s).
 
 * If you want to, adjust the width and visibility of the progress bar on line 30.
 
@@ -20,7 +22,7 @@ The iPhone or iPad are ideal for the sound booth environment, as they are comple
 
 * Upload the iphone-prompter folder to a web server (your personal website will come in handy).
 
-* Open Safari on your iphone/ipad, and navigate to wherever you put iphone-prompter.
+* Open Safari on your iphone/ipad (or laptop/desktop), and navigate to wherever you put iphone-prompter.
 
 * Hand the iphone/ipad to your consultant. 
 
