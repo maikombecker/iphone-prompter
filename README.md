@@ -18,7 +18,9 @@ This utility can also be used on any machine that has a web browser, e.g. your l
 
 * In "index.html", go to line 23, where it says "var files". You will see three sample files listed there. Specify your own file(s).
 
-* If you want to, adjust the width and visibility of the progress bar on line 30.
+* If you want to, adjust the width and visibility of the progress bar on line 26.
+
+* If you want to, set item randomization to true on line 30. I don't recommend this, since the randomized order will not be saved anywhere. I suggest that you pre-randomize your text files.
 
 * Save and close "index.html".
 
