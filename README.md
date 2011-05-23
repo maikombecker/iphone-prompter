@@ -6,7 +6,7 @@ The iPhone or iPad are ideal for using in the sound booth, as they are completel
 
 This utility can also be used on any machine that has a web browser, e.g. your laptop or desktop computer.
 
-## How to use this utility
+# How to use iphone-prompter
 
 ### Prepare your materials
 
