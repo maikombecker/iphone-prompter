@@ -36,5 +36,5 @@ This utility can also be used on any machine that has a web browser, e.g. your l
 
 ### What if I don't have WiFi in my sound booth?
 
-* Go to a place where you have reception, and open iphone-prompter. Once it is open and loaded, it will continue to work offline. 
+* No problem. Go to a place where you get reception, and open iphone-prompter. Once iphone-prompter is open and loaded, it will continue to work offline. 
 
