@@ -33,3 +33,8 @@ This utility can also be used on any machine that has a web browser, e.g. your l
 * Hand the iphone/ipad to your consultant. 
 
 * When you are using iPrompter on a device that has a keyboard, it may be used in addition to the mouse. Your keyboard may be quieter than your mouse.
+
+### What if I don't have WiFi in my sound booth?
+
+* Go to a place where you have reception, and open iphone-prompter. Once it is open and loaded, it will continue to work offline. 
+
