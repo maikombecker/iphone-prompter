@@ -1,4 +1,4 @@
-# iphone-prompter
+# What is iphone-prompter?
 
 This utility helps linguists present a list of words to a language consultant, presumably to be recorded.
 
