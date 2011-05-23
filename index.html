@@ -1,56 +1,44 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html>
 <head>
-	<title>Questionnaire</title>
+	<title>iPrompter</title>
 	<meta HTTP-EQUIV="Content-Type" content="text/html; charset=utf-8">
-	<meta HTTP-EQUIV="Pragma" CONTENT="no-cache">
-	<meta HTTP-EQUIV="Expires" CONTENT="-1">
-
-	<meta name="viewport" content="width=980, user-scalable=no" />
-
-	<link rel="stylesheet" href="lib/questionnaire.css" type="text/css">
-	
+	<meta name="viewport" content="user-scalable=no, width=device-width" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<link rel="stylesheet" href="lib/iprompter.css" type="text/css">
 	<script type="text/javascript" src="lib/jquery-1.4.4.min.js"></script>
-	<script type="text/javascript" src="lib/progressbar.js"></script>
-	<script type="text/javascript" src="lib/core.js"></script>
-
+	<script type="text/javascript" src="lib/iprompter.js"></script>
 	<script type="text/javascript">
 	
 	// Specify the files you want to use here. 
-	// The files should have one line per item, and no empty lines.
-	// Enclose each file name in quotes, and put commas between names
-	// if you have more than one.
-	var files = ["frenchwugs1.txt", "frenchwugs2.txt", "frenchwugs3.txt"];
+	// In your files, put one line per item, and no empty lines.
 
-	// Change the width and visibility of the progress bar here
-	var progress = new Progressbar({adjustWidth: 3, visible: true});
+	// Enclose each file name in quotes, 
+	// separate file names with commas.
 	
-	// randomize the items within each file?
-	// (not recommended, as the randomized order will not be saved anywhere)
-	var randomize = false;
+	/// YOU EDIT THE FOLLOWING LINE:
 	
+	iPrompter.files(["recording1.txt", "recording2.txt", "recording3.txt"]);
 
 	</script>
 
 </head>
 <body>
 
-<div id="header">
-	<input id="loadfilebutton" type="button" value="  load next list  " onClick="loadNextFile()">
+<div id="footer">
+	<div id="progressbar"></div>
+	<input id="loadfilebutton" type="button" value="  load next list  " onClick="iPrompter.nextFile()">
+	<input id="reloadbutton" type="button" value="  start over  " onClick="window.location.reload()">
 </div>
 
 <div id="main">
 	<div id="item"></div>
-	<div id="buttons" STYLE="display:none;">
-		<input id="buttonleft"  type="button" value="   ◀   " onClick='showPrev()'>
-		<input id="buttonright" type="button" value="   ▶   " onClick='showNext()'>
-	</div>
+	<input id="buttonleft"  type="button" value="   ◀   " onClick='iPrompter.prev()'>
+	<input id="buttonright" type="button" value="   ▶   " onClick='iPrompter.next()'>
 </div>
 
-<div id="footer">
-	<!--- progress bar --->
-	<div id="progressbar"></div>
-</div>
+
 
 </body>
 </html>

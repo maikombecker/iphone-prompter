@@ -1,0 +1,101 @@
+
+body {
+	background-color: #444; /* Background color */ 
+	color: #222;	/* Foreground color used for text */ 
+	font-family: Helvetica; 
+	font-size: 14px; 
+	margin: 10;	/* Amount of negative space around the outside of the body */ 
+	padding: 0;	/* Amount of negative space around the inside of the body */
+
+}
+
+#main {
+	margin: auto;
+	width: 460px;
+	height: 255px;
+	border: solid black 0px;
+
+	background-color: #EEE;
+	color: #000;
+	
+	text-align: center;
+	position:absolute;
+	top: 36px;
+
+	font-family: Helvetica; 
+}
+
+
+
+
+#item {
+	position: relative;
+	
+	font-size: 90px;
+	margin: 20px 10px 10px 10px;
+}
+
+#buttonleft {
+	font-size: 30px;
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+}
+
+#buttonright {
+	font-size: 30px;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+
+
+
+#footer {
+	margin: auto;
+	width: 460px;
+	padding: 0px 0px 0px 0px;
+	position: absolute;
+	top: 5px;
+}
+
+
+#loadfilebutton {
+	float: right;
+	font-size: 11px;
+}
+#reloadbutton {
+	float: right;
+	font-size: 11px;
+}
+
+#progressbar {
+	float: left;
+	padding: 0px;
+}
+#progress_text {
+	margin-top: 2px;
+	font-size: 15px;
+	float: left;
+	color: #aaa;
+	padding-right: 6px;
+}
+#progress_bar_full {
+	float: right;
+	height: 6px;
+	margin-top: 8px;
+	background-color: #aaa;
+	border-left: solid 1px #aaa;
+	border-top: solid 1px #aaa;
+	border-bottom: solid 1px #aaa;
+}
+#progress_bar_empty {
+	float: right;
+	height: 6px;
+	margin-top: 8px;
+	border-right: solid 1px #aaa;
+	border-top: solid 1px #aaa;
+	border-bottom: solid 1px #aaa;
+}
+
+

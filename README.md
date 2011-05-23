@@ -16,17 +16,14 @@ This utility can also be used on any machine that has a web browser, e.g. your l
 
 * In your simple text editor, open the "index.html" file.
 
-* In "index.html", go to line 23, where it says "var files". You will see three sample files listed there. Specify your own file(s).
-
-* If you want to, adjust the width and visibility of the progress bar on line 26.
-
-* If you want to, set item randomization to true on line 30. I don't recommend this, since the randomized order will not be saved anywhere. I suggest that you pre-randomize your text files.
+* In "index.html", go to line 22, where it says "iPrompter.files". You will see three sample files listed there. Specify your own file(s).
 
 * Save and close "index.html".
 
 * Upload the iphone-prompter folder to a web server (your personal website will come in handy).
 
-* Open Safari on your iphone/ipad (or laptop/desktop), and navigate to wherever you put iphone-prompter.
+* Open Safari on your iphone/ipad (or laptop/desktop), and navigate to wherever you put iphone-prompter. The screen will look very big and ugly. Don't worry. Press the + button at the bottom of the screen, and choose "Add to Home Screen". This will add iPrompter as an app on your iphone/ipad. Go to your home screen and open the app.
 
 * Hand the iphone/ipad to your consultant. 
 
+* When you are using iPrompter on a device that has a keyboard, it may be used in addition to the mouse. Your keyboard may be quieter than your mouse.
