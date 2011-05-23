@@ -8,6 +8,8 @@ This utility can also be used on any machine that has a web browser, e.g. your l
 
 ## How to use this utility
 
+### Prepare your materials
+
 * Download iphone-prompter (see downloads button above) and unzip the downloaded file. 
 
 * Open a simple text editor (download a free one if needed, e.g. "TextWrangler" for Mac, or "Notepad++" for Windows).
@@ -20,7 +22,11 @@ This utility can also be used on any machine that has a web browser, e.g. your l
 
 * Save and close "index.html".
 
+### Upload to your server or website
+
 * Upload the iphone-prompter folder to a web server (your personal website will come in handy).
+
+### Make into an app
 
 * Open Safari on your iphone/ipad (or laptop/desktop), and navigate to wherever you put iphone-prompter. The screen will look very big and ugly. Don't worry. Press the + button at the bottom of the screen, and choose "Add to Home Screen". This will add iPrompter as an app on your iphone/ipad. Go to your home screen and open the app.
 
