@@ -40,6 +40,8 @@ body {
 	position: absolute;
 	left: 10px;
 	bottom: 10px;
+	width: 180px;
+	height: 70px;
 }
 
 #buttonright {
@@ -47,6 +49,8 @@ body {
 	position: absolute;
 	right: 10px;
 	bottom: 10px;
+	width: 180px;
+	height: 70px;
 }
 
 
